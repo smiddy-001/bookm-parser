@@ -1,20 +1,16 @@
-# bookm-parser
-Parse Netscape Bookmark file to CSV
+# Bookmarks Parsing Python Script
 
-## Get the Bookmarks
+## What Each File Is...
 
-- Google  https://www.google.com/bookmarks/bookmarks.html?hl=en
-- Chrome chrome://bookmarks/ (settings icon in the upper right corner)
+- main.py is the main python file, once the whole project is done, this should be the only nessecary file.
 
-(There are differences in the file format (Timestamp, hierarchy ...) and the HTML is just horrible.)
+- all the other files ending in .py will be used in that main.py file, if one component their names may give hints to what needs debugging.
 
-## Build
+- the bookmarks.csv is the bookmarks.html cleaned and turned to csv in one.
+- the night_tab.csv is the night_tab.json cleaned and turned to csv in one.
 
-Use Maven (sorry)
-`mvn build`
+This README.md is so people like me and you can remember what the fuck this whole thing means when we move onto another project and forget about all of this.
 
-## Run
+2023-05-05 21:22:02.632 [info] > git status -z -uall [63ms]
 
-`java -jar target/bookm-parser-jar-with-dependencies.jar Bookmarks...html`
-
-
+git config --global user.email ""
