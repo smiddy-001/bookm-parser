@@ -11,6 +11,4 @@
 
 This README.md is so people like me and you can remember what the fuck this whole thing means when we move onto another project and forget about all of this.
 
-2023-05-05 21:22:02.632 [info] > git status -z -uall [63ms]
-
-git config --global user.email ""
+Ummmmmm. I started using ur code but got rid of alot of it lol. Python for life :cool
