@@ -11,4 +11,4 @@
 
 This README.md is so people like me and you can remember what the fuck this whole thing means when we move onto another project and forget about all of this.
 
-Ummmmmm. I started using ur code but got rid of alot of it lol. Python for life :cool
+Ummmmmm. I started using ur code but got rid of alot of it lol. Python for life 😎
