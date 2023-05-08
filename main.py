@@ -21,8 +21,15 @@ import src.components.browser_bookmarks_to_csv as bm_to_csv
 ## Constants will be in the config.conf file so use that please !!!
 config.read('src\config.conf')
 
-config['DEFAULT']['BmToCsv']
-config['DEFAULT']['NtToCsv']
+bookmark_py = config['Imports']['BmToCsv']
+nighttab_py = config['Imports']['NtToCsv']
+originals_location = config['Imports']['UneditedFolder']
+seperated_location = config['Imports']['EditedFolder']
+
+name_convention_bookmarks = config['Unedited']['BookmarkFile']
+name_convention_nighttab = config['Unedited']['NightTabFile']
+
+output_folder = config['Edited']['output']
 
 input()
 
