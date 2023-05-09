@@ -360,11 +360,11 @@ Oh dear god tht was alot to process...
 | **Python script to convert bookmarks.json to csv:**                                                                                                                                           | ~1 hours        |             |                    |
 | 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark: |
 | 2. Open the bookmarks.json file and load the data into a Python object                                                                                                                        | >0.5 hours      | Riley Smith | :heavy_check_mark: |
-| 3. Create a CSV file and write the data from the Python object into it                                                                                                                        | >0.1 hours      | Riley Smith | Not Started        |
-| 4. Save the CSV file and close it                                                                                                                                                             | >0.1 hours      | Riley Smith | Not Started        |
+| 3. Create a CSV file and write the data from the Python object into it                                                                                                                        | >0.1 hours      | Riley Smith | :heavy_check_mark:        |
+| 4. Save the CSV file and close it                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark:        |
 | **Python script to merge the bookmarks.csv files created in step 1 and step 2:**                                                                                                              | ~1 hours        |             |                    |
-| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | Not Started        |
-| 2. Open the bookmarks.html CSV and bookmarks.json CSV files and read their data into Python objects                                                                                           | >0.5 hours      | Riley Smith | Not Started        |
+| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark:        |
+| 2. Open the bookmarks.html CSV and bookmarks.json CSV files and read their data into Python objects                                                                                           | >0.5 hours      | Riley Smith | :heavy_check_mark:        |
 | 3. Combine the data from the two Python objects into a single Python object                                                                                                                   | >0.5 hours      | Riley Smith | Not Started        |
 | 4. Create a new CSV file and write the merged data into it                                                                                                                                    | >0.1 hours      | Riley Smith | Not Started        |
 | 5. Save the CSV file and close it                                                                                                                                                             | >0.1 hours      | Riley Smith | Not Started        |
@@ -410,7 +410,7 @@ Oh dear god tht was alot to process...
 | ---------------------------------------------------------------- | --------------- | ----------- | ------------------ |
 | **Yeah, This Might Take Me A Solid Year To Finish**              |                 |             |                    |
 | 1. python script that converts Bookmark.html > bookmark.csv      | ~7 hours        | Riley Smith | :heavy_check_mark: |
-| 2. python script that converts Bookmark.json > bookmark.csv      | ~8 hours        | Riley Smith | :heavy_check_mark: |
+| 2. python script that converts Bookmark.json > bookmark.csv      | ~8 hours        | Riley Smith | In Progress
 | 3. python script that merges the previous two csv files into one | ~1 hours        | Riley Smith | Not Started        |
 | 4. Reverse step 1.                                               | ~3 hours        | Riley Smith | Not Started        |
 | 5. Reverse step 2.                                               | ~2 hours        | Riley Smith | Not Started        |
