@@ -3,12 +3,12 @@
 :root {
   --focus: rgba(228, 73, 26, 0.05);
   --radius: 0.5rem;
-  --thickness: 0.25rem;
+  --thickness: 0rem;
   --border-style: solid;
   --border-color: #e4af1f;
 
-  --background: #ffffff;
-  --foreground: #c4d7db;
+  --background: #252424;
+  --foreground: #7eabb4;
 }
 
 body {
