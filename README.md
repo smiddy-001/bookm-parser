@@ -1,7 +1,32 @@
 # Bookmarks Extended - Browser Extention
 
 I started this project as a fork of https://github.com/KM-Bookmarks/bookm-parser
-but got rid of alot of it because after instaling rust, your code didnt even work for my system for some reason... Python for life 😎
+but got rid of all of it because after instaling rust, your code didnt even work for my system for some reason (possibly the last real commit being 7 years ago had something to do with it...) Python for life 😎
+
+
+## Table Of Contents
+
+<!-- TOC -->
+
+- [Bookmarks Extended - Browser Extention](#bookmarks-extended---browser-extention)
+  - [Table Of Contents](#table-of-contents)
+- [What am I trying to do exactly?](#what-am-i-trying-to-do-exactly)
+  - [Background / where I wanted to go at the start](#background--where-i-wanted-to-go-at-the-start)
+  - [What I'm doing now](#what-im-doing-now)
+  - [How to use this repo in its curlerent unusable state.](#how-to-use-this-repo-in-its-curlerent-unusable-state)
+  - [What each file Is...](#what-each-file-is)
+- [Python script collection ( conversions )](#python-script-collection--conversions-)
+  - [Steps](#steps)
+- [Cleaned CSV files to website](#cleaned-csv-files-to-website)
+  - [Possible API integrations](#possible-api-integrations)
+  - [Color Theory](#color-theory)
+  - [Steps](#steps-1)
+- [Machine Learning Model](#machine-learning-model)
+  - [steps](#steps-2)
+- [Big List :)](#big-list-)
+- [The Project, Disected \& timed out](#the-project-disected--timed-out)
+
+<!-- /TOC -->
 
 # What am I trying to do exactly?
 
@@ -20,30 +45,6 @@ I also want to either fork nightTab or make my own newtab web extension that rea
 For the autosuggestions to happen I will need a categorisation model and im really not sure how fast this whole project will be... Might need my gamging pc to act as a remote sever to be able to do the machine learning calculations quickly but I will do everything in my power to optimise it with minimal compromise to model accuracy.
 
     I never understood why people documented code until I went back to try continue old projects after completley forgetting what I was trying to achieve. Please document your code cuz its really hard to know what your trynna achieve or do with your code. The ammount of repos ive seen with absolutley nothing just piss me off now.
-
-## Table Of Contents
-
-<!-- TOC -->
-
-- [Bookmarks Extended - Browser Extention](#bookmarks-extended---browser-extention)
-- [What am I trying to do exactly?](#what-am-i-trying-to-do-exactly)
-  - [Background / where I wanted to go at the start](#background--where-i-wanted-to-go-at-the-start)
-  - [What I'm doing now](#what-im-doing-now)
-  - [Table Of Contents](#table-of-contents)
-  - [How to use this repo in its curlerent unusable state.](#how-to-use-this-repo-in-its-curlerent-unusable-state)
-  - [What each file Is...](#what-each-file-is)
-- [Python script collection ( conversions )](#python-script-collection--conversions-)
-  - [Steps](#steps)
-- [Cleaned CSV files to website](#cleaned-csv-files-to-website)
-  - [Possible API integrations](#possible-api-integrations)
-  - [Color Theory](#color-theory)
-  - [Steps](#steps-1)
-- [Machine Learning Model](#machine-learning-model)
-  - [steps](#steps-2)
-- [Big List :)](#big-list-)
-- [The Project, Disected \& timed out](#the-project-disected--timed-out)
-
-<!-- /TOC -->
 
 ## How to use this repo in its curlerent unusable state.
 
