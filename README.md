@@ -41,7 +41,7 @@ For the autosuggestions to happen I will need a categorisation model and im real
 - [Machine Learning Model](#machine-learning-model)
   - [steps](#steps-2)
 - [Big List :)](#big-list-)
-- [The Whole Thing...](#the-whole-thing)
+- [The Project, Disected \& timed out](#the-project-disected--timed-out)
 
 <!-- /TOC -->
 
@@ -248,81 +248,18 @@ and its basically as easy as that...
 
 ---
 
-Oh dear god tht was alot to process...
-
-<<<<<<< HEAD
-=======
-# **CHAT GPT GENERATED SCHEDULE/PLANNING**
-
-    Note: The time estimates are rough approximations and may vary based on individual experience and working speed.
-
-| Task                                                                                                                                                                                          | Estimated Hours | Assignee    | Status             |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ----------- | ------------------ |
-| **Python script to convert bookmarks.html to csv:**                                                                                                                                           | ~3 hours        |             |                    |
-| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark: |
-| 2. Open the bookmarks.html file using Beautiful Soup and parse the data                                                                                                                       | >0.5 hours      | Riley Smith | :heavy_check_mark: |
-| 3. Create a CSV file and write the parsed data into it                                                                                                                                        | >0.1 hours      | Riley Smith | :heavy_check_mark: |
-| 4. Save the CSV file and close it                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark: |
-| **Python script to convert bookmarks.json to csv:**                                                                                                                                           | ~1 hours        |             |                    |
-| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark: |
-| 2. Open the bookmarks.json file and load the data into a Python object                                                                                                                        | >0.5 hours      | Riley Smith | :heavy_check_mark: |
-| 3. Create a CSV file and write the data from the Python object into it                                                                                                                        | >0.1 hours      | Riley Smith | :heavy_check_mark:        |
-| 4. Save the CSV file and close it                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark:        |
-| **Python script to merge the bookmarks.csv files created in step 1 and step 2:**                                                                                                              | ~1 hours        |             |                    |
-| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | :heavy_check_mark:        |
-| 2. Open the bookmarks.html CSV and bookmarks.json CSV files and read their data into Python objects                                                                                           | >0.5 hours      | Riley Smith | :heavy_check_mark:        |
-| 3. Combine the data from the two Python objects into a single Python object                                                                                                                   | >0.5 hours      | Riley Smith | Not Started        |
-| 4. Create a new CSV file and write the merged data into it                                                                                                                                    | >0.1 hours      | Riley Smith | Not Started        |
-| 5. Save the CSV file and close it                                                                                                                                                             | >0.1 hours      | Riley Smith | Not Started        |
-| **Python script to convert the merged CSV file (created in step 3) back to bookmarks.html:**                                                                                                  | ~3 hours        |             |                    |
-| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | Not Started        |
-| 2. Open the merged CSV file and read the data into a Python object                                                                                                                            | >0.5 hours      | Riley Smith | Not Started        |
-| 3. Create a new bookmarks.html file using BeautifulSoup and write the data from the Python object into it                                                                                     | >0.5 hours      | Riley Smith | Not Started        |
-| 4. Save the bookmarks.html file and close it                                                                                                                                                  | >0.1 hours      | Riley Smith | Not Started        |
-| **Python script to convert the merged CSV file (created in step 3) back to bookmarks.json:**                                                                                                  | ~2 hours        |             |                    |
-| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | Not Started        |
-| 2. Open the merged CSV file and read the data into a Python object                                                                                                                            | >0.5 hours      | Riley Smith | Not Started        |
-| 3. Convert the Python object into a JSON object                                                                                                                                               | >0.1 hours      | Riley Smith | Not Started        |
-| 4. Create a new bookmarks.json file and write the JSON object into it                                                                                                                         | >0.1 hours      | Riley Smith | Not Started        |
-| 5. Save the bookmarks.json file and close it                                                                                                                                                  | >0.1 hours      | Riley Smith | Not Started        |
-| **Machine Learning Model:**                                                                                                                                                                   | ~14 hours       |             |                    |
-| 1. Clean the URLs to remove any irrelevant information                                                                                                                                        | >0.1 hours      | Riley Smith | Not Started        |
-| 2. Extract features from the URLs that can be used for classification. For example, you can extract the domain name, the length of the URL, the presence of certain keywords in the URL, etc. | >0.5 hours      | Riley Smith | Not Started        |
-| 3. Label each URL in your dataset with the corresponding broad and specialized categories. You can do this manually or use an existing dataset as a reference.                                | >0.1 hours      | Riley Smith | Not Started        |
-| 4. Split your dataset into training and test sets.                                                                                                                                            | >0.1 hours      | Riley Smith | Not Started        |
-| 5. Train a supervised classification algorithm (e.g. logistic regression, random forest, support vector machine, etc.) on the training set using the features and labels                      | >0.1 hours      | Riley Smith | Not Started        |
-| 6. Evaluate the performance of the trained algorithm on the test set                                                                                                                          | >0.1 hours      | Riley Smith | Not Started        |
-| 7. Use the trained algorithm to predict the categories of new URLs                                                                                                                            | >0.1 hours      | Riley Smith | Not Started        |
-| 8. You can also use the feature importance scores to identify the most important features for classification.                                                                                 | >0.1 hours      | Riley Smith | Not Started        |
-| 9. Refine the algorithm by tuning the hyperparameters and retraining on the entire dataset.                                                                                                   | >0.1 hours      | Riley Smith | Not Started        |
-| 10. You can also consider using techniques such as cross-validation and ensemble methods to improve the performance of the algorithm.                                                         | >0.1 hours      | Riley Smith | Not Started        |
-| 11. Deploy the algorithm to categorize new URLs in real-time.                                                                                                                                 | >0.1 hours      | Riley Smith | Not Started        |
-| **Website Stuff**                                                                                                  | ~2 hours        |             |                    |
-| 1. Import the necessary libraries                                                                                                                                                             | >0.1 hours      | Riley Smith | Not Started        |
-| 2. Open the CSV file and read the data into javascript/typescript                                                                                                                            | >0.5 hours      | Riley Smith | Not Started        |
-| 3. Prototype the website using faked csv data                                                                                                                                                | >0.1 hours      | Riley Smith | Not Started        |
-| 4. stylise, reformat, ensure it works for screenreaders ect                                                                                                                         | >0.1 hours      | Riley Smith | Not Started        |
-| 5. Settings tab like in NightTab                                                                                                                                                  | >0.1 hours      | Riley Smith | Not Started        |
-| 6. Connect Settings tab to the config file / use config file to make settings tab and cross integrate                                                                                                                                                | >0.1 hours      | Riley Smith | Not Started        |
-| 7. How will adding bookmarks work?                                                                                                                                                  | >0.1 hours      | Riley Smith | Not Started        |
-| 8. Implement chosen method (I like the idea of replacing the star with our own star & dialogue)                                                                                                                                                  | >0.1 hours      | Riley Smith | Not Started        |
-| 9. Implement keybinds and                                                                                                                                                   | >0.1 hours      | Riley Smith | Not Started        |
-
-
-
->>>>>>> 664bf5788db107f3409712424e829b9aaa8a688e
-# The Whole Thing...
+# The Project, Disected & timed out
 
 | Task                                                             | Estimated Hours | Assignee    | Status             |
 | ---------------------------------------------------------------- | --------------- | ----------- | ------------------ |
 | **Yeah, This Might Take Me A Solid Year To Finish**              |                 |             |                    |
 | 1. python script that converts Bookmark.html > bookmark.csv      | ~7 hours        | Riley Smith | :heavy_check_mark: |
-| 2. python script that converts Bookmark.json > bookmark.csv      | ~8 hours        | Riley Smith | In Progress
+| 2. python script that converts Bookmark.json > bookmark.csv      | ~8 hours        | Riley Smith | :heavy_check_mark: |
 | 3. python script that merges the previous two csv files into one | ~1 hours        | Riley Smith | Not Started        |
 | 4. Reverse step 1.                                               | ~3 hours        | Riley Smith | Not Started        |
 | 5. Reverse step 2.                                               | ~2 hours        | Riley Smith | Not Started        |
-| 6. Machine Learning Model 1                                      | ~12 hours        | Riley Smith | Not Started        |
-| 6. Machine Learning Model 2                                      | ~12 hours        | Riley Smith | Not Started        |
-| 6. Machine Learning Model 3                                      | ~12 hours        | Riley Smith | Not Started        |
-| 7. Basic Web - **First Release**                                        | ~2 hours        | Riley Smith | Not Started        |
-| 8. Web Improvments - **Second Release**                                       | >7 hours        | Riley Smith | Not Started        |
+| 6. Machine Learning Model 1                                      | ~12 hours       | Riley Smith | Not Started        |
+| 6. Machine Learning Model 2                                      | ~12 hours       | Riley Smith | Not Started        |
+| 6. Machine Learning Model 3                                      | ~12 hours       | Riley Smith | Not Started        |
+| 7. Basic Web - **First Release**                                 | ~2 hours        | Riley Smith | Not Started        |
+| 8. Web Improvments - **Second Release**                          | >7 hours        | Riley Smith | Not Started        |
