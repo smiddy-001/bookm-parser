@@ -3,6 +3,7 @@
 I started this project as a fork of https://github.com/KM-Bookmarks/bookm-parser
 but got rid of all of it because after instaling rust, your code didnt even work for my system for some reason (possibly the last real commit being 7 years ago had something to do with it...) Python for life 😎
 
+This is a bookmarks extender extension. The idea being that it helps autocategorise newly added bookmarks by replacing the current menu with a new menu that uses AI to generate a few of the most likely categories at the top and a search through your folders button for more preciseness if the suggestions weren't good enough. 
 
 ## Table Of Contents
 
@@ -25,6 +26,11 @@ but got rid of all of it because after instaling rust, your code didnt even work
   - [steps](#steps-2)
 - [Big List :)](#big-list-)
 - [The Project, Disected \& timed out](#the-project-disected--timed-out)
+- [PROJECT LOG](#project-log)
+  - [15/5/23](#15523)
+    - [Overview](#overview)
+    - [Next Steps](#next-steps)
+  - [16/5/23](#16523)
 
 <!-- /TOC -->
 
@@ -264,3 +270,24 @@ and its basically as easy as that...
 | 6. Machine Learning Model 3                                      | ~12 hours       | Riley Smith | Not Started        |
 | 7. Basic Web - **First Release**                                 | ~2 hours        | Riley Smith | Not Started        |
 | 8. Web Improvments - **Second Release**                          | >7 hours        | Riley Smith | Not Started        |
+
+# PROJECT LOG
+this is a log for my progress, intended for just me but can be useful if you want to contribute or just know how the project is going and where its headed.
+time format dd/mm/yy because im no psyco.
+
+## 15/5/23
+
+![](website_progress_15523.PNG)
+
+### Overview
+This seems like a good spot to finish up for the night. I made the website look nicer and cleaned up the readme so it looks a bit easier to read. Next time I will probably be setting up react as it has been all fine and dandy making the website look nice but its going to need linked lists and data structures and folders and that seems near impossible to do in vanilla js and I know what im doing with react so it shouldnt be too hard.
+
+### Next Steps
+- Implement React
+- Date and time fetcher
+- connect the config file to css variables + some config for date time formats and such?
+- Implement Foldered data from a csv
+- Searchbar? - at least decide what you will be doing when it comes to searching for links and keywords and such
+- Does the json to csv need fixed or was csv not the best idea for foldered data in the first place? offer alternative solutions
+
+## 16/5/23
