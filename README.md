@@ -16,6 +16,7 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
   - [What I'm doing now](#what-im-doing-now)
   - [How to use this repo in its curlerent unusable state.](#how-to-use-this-repo-in-its-curlerent-unusable-state)
   - [What each file Is...](#what-each-file-is)
+- [Website new tab override](#website-new-tab-override)
 - [Python script collection ( conversions )](#python-script-collection--conversions-)
   - [Steps](#steps)
 - [Cleaned CSV files to website](#cleaned-csv-files-to-website)
@@ -83,6 +84,9 @@ This _README.md_ is so people like me and you can remember what the fuck this wh
 I decided I will be using an ai model to not only categorise the bookmarks and give appropriate quick suggestions but also to help generate favicons. I may also need a icon library such as fontawesome to use in combination.
 
 My only worry currently is that it doesnt fit everything well enough, like youtube links will probably all come under visual / entertainment even if their content can be drastically different depending on the video
+
+# Website new tab override
+[documentation](./bookmark-tab/README.md)
 
 # Python script collection ( conversions )
 
@@ -254,6 +258,7 @@ and its basically as easy as that...
 
    d. You can also use external data sources to enrich your dataset, such as adding metadata about the URLs (e.g. from an API that provides information about web pages).
 
+7. [Website](./bookmark-tab/README.md)
 
 ---
 
@@ -270,8 +275,8 @@ and its basically as easy as that...
 | 6. Machine Learning Model 1                                      | ~12 hours       | Riley Smith | Not Started        |
 | 6. Machine Learning Model 2                                      | ~12 hours       | Riley Smith | Not Started        |
 | 6. Machine Learning Model 3                                      | ~12 hours       | Riley Smith | Not Started        |
-| 7. Basic Web - **First Release**                                 | ~2 hours        | Riley Smith | Not Started        |
-| 8. Web Improvments - **Second Release**                          | >7 hours        | Riley Smith | Not Started        |
+| 7. [Basic website](./bookmark-tab/README.md) - **First Release**                                 | ~2 hours        | Riley Smith | Not Started        |
+| 8. [Website improvements](./bookmark-tab/README.md) - **Second Release**                          | >7 hours        | Riley Smith | Not Started        |
 
 # PROJECT LOG
 this is a log for my progress, intended for just me but can be useful if you want to contribute or just know how the project is going and where its headed.
@@ -300,5 +305,7 @@ Big one is that I have gone from the boilerplate from the previous log that was 
 Converted from .conf to .yml just because I like yaml more and It looks like nested items get more readable (https://yaml.org/spec/1.2.2/#example-compact-nested-mapping) which I want because I want to use yaml instead of csv as the final export. It is a smaller file than json and html so it should mean the bookmarks load faster anyways so I see no issue with converting... yet...
 
 css colour variables are now stored in the .yml (YAML) file and have been connected together into the css so it should all be a bit smoother.
+
+[website now has its own seperated documentation](./bookmark-tab/README.md)
 
 ### Next Steps
