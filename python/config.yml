@@ -1,8 +1,8 @@
 'Imports':
-    'BmToCsv': 'src\components\browser_bookmarks_to_csv.py'  # Bookmark Python File Location
-    'NtToCsv': 'src\components\nighttabjson_to_csv.py'       # NightTab Py File Location
-    'UneditedFolder': 'src\original'     # Unedited / Uploaded Paths
-    'EditedFolder': 'src\processed'      # Edited / Uploaded files go to when they converted to csv
+    'BmToCsv': 'python\components\browser_bookmarks_to_csv.py'  # Bookmark Python File Location
+    'NtToCsv': 'python\components\nighttabjson_to_csv.py'       # NightTab Py File Location
+    'UneditedFolder': 'python\original'     # Unedited / Uploaded Paths
+    'EditedFolder': 'python\processed'      # Edited / Uploaded files go to when they converted to csv
 
 'Unedited':
     'BookmarkFile': 'bookmarks'

@@ -2,5 +2,9 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
-    "python.formatting.provider": "none"
+    "python.formatting.provider": "none",
+    "yaml.schemas": {
+        "file:///c%3A/Users/riley/.vscode/extensions/docsmsft.docs-yaml-1.0.0/dist/toc.schema.json": "/toc\\.yml/i",
+        "cmake-tools-schema:///schemas/variants-schema.json": "file:///c%3A/Users/riley/bookm-parser/python/output.csv"
+    }
 }

@@ -7,11 +7,11 @@
 
 ## Imports
 import yaml
-import src.components.nighttabjson_to_csv as nt_to_csv
-import src.components.browser_bookmarks_to_csv as bm_to_csv
+import python.components.nighttabjson_to_csv as nt_to_csv
+import python.components.browser_bookmarks_to_csv as bm_to_csv
 
 ## Constants will be in the config.yml file so use that please !!!
-with open('./src/config.yml', 'r') as f:
+with open('./python/config.yml', 'r') as f:
     config = yaml.safe_load(f)
 
 bookmark_py = config['Imports']['BmToCsv']
@@ -38,4 +38,4 @@ print(f'.\\{seperated_location}\\{output_name}')
 bm_to_csv.parse(f'{originals_location}\\{name_convention_bookmarks}',f'{seperated_location}\\{name_convention_bookmarks}-{output_name}')
 nt_to_csv.parse(f'{originals_location}\\{name_convention_nighttab}',f'{seperated_location}\\{name_convention_nighttab}-{output_name}')
 
-print('complete!!!')
+print('complete!')
