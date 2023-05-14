@@ -27,10 +27,12 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
 - [Big List :)](#big-list-)
 - [The Project, Disected \& timed out](#the-project-disected--timed-out)
 - [PROJECT LOG](#project-log)
-  - [15/5/23](#15523)
+  - [12/5/23](#12523)
     - [Overview](#overview)
     - [Next Steps](#next-steps)
-  - [16/5/23](#16523)
+  - [14/5/23](#14523)
+    - [Overview](#overview-1)
+    - [Next Steps](#next-steps-1)
 
 <!-- /TOC -->
 
@@ -275,7 +277,7 @@ and its basically as easy as that...
 this is a log for my progress, intended for just me but can be useful if you want to contribute or just know how the project is going and where its headed.
 time format dd/mm/yy because im no psyco.
 
-## 15/5/23
+## 12/5/23
 
 ![](website_progress_15523.PNG)
 
@@ -290,4 +292,13 @@ This seems like a good spot to finish up for the night. I made the website look 
 - Searchbar? - at least decide what you will be doing when it comes to searching for links and keywords and such
 - Does the json to csv need fixed or was csv not the best idea for foldered data in the first place? offer alternative solutions
 
-## 16/5/23
+## 14/5/23
+
+### Overview
+Big one is that I have gone from the boilerplate from the previous log that was written in plain html, js and css into react which should handle procedurally generating the bookmarks and it integrates with node a bit nicer than plain html, css js.
+
+Converted from .conf to .yml just because I like yaml more and It looks like nested items get more readable (https://yaml.org/spec/1.2.2/#example-compact-nested-mapping) which I want because I want to use yaml instead of csv as the final export. It is a smaller file than json and html so it should mean the bookmarks load faster anyways so I see no issue with converting... yet...
+
+css colour variables are now stored in the .yml (YAML) file and have been connected together into the css so it should all be a bit smoother.
+
+### Next Steps

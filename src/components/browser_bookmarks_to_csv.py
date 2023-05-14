@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 def parse(input, output):
     if (input == '' or output == ''):
         print("ERROR : Browser bookmarks to csv filepaths havent been specified!")
-    with open(input, 'r', encoding='utf-8') as f:
+    with open(f'{input}.html', 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f, 'html.parser')
 
     # Find all divs with article information

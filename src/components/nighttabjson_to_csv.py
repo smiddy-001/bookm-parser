@@ -6,7 +6,7 @@ import pandas as pd
 def parse(input, output):
 
     # Load JSON object
-    with open(input, 'r') as f:
+    with open(f'{input}.json', 'r') as f:
         data = json.load(f)
 
     # Extract the bookmark items
