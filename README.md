@@ -34,6 +34,9 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
   - [14/5/23](#14523)
     - [Overview](#overview-1)
     - [Next Steps](#next-steps-1)
+  - [16/5/23](#16523)
+    - [Overview](#overview-2)
+    - [Next Steps](#next-steps-2)
 
 <!-- /TOC -->
 
@@ -304,8 +307,22 @@ Big one is that I have gone from the boilerplate from the previous log that was 
 
 Converted from .conf to .yml just because I like yaml more and It looks like nested items get more readable (https://yaml.org/spec/1.2.2/#example-compact-nested-mapping) which I want because I want to use yaml instead of csv as the final export. It is a smaller file than json and html so it should mean the bookmarks load faster anyways so I see no issue with converting... yet...
 
-css colour variables are now stored in the .yml (YAML) file and have been connected together into the css so it should all be a bit smoother.
+css colour variables are now stored in the .yml (YAML) file, have not been connected with css variables yet.
 
 [website now has its own seperated documentation](./bookmark-tab/README.md)
 
 ### Next Steps
+- Remake orginal website in nextjs
+- Date and time fetcher
+- connect the config file to css variables + some config for date time formats and such?
+- Implement Foldered data from a csv
+- Searchbar? - at least decide what you will be doing when it comes to searching for links and keywords and such
+- Does the json to csv need fixed or was csv not the best idea for foldered data in the first place? offer alternative solutions
+
+## 16/5/23
+
+### Overview
+???
+
+### Next Steps
+- ???
