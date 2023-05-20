@@ -1,15 +1,18 @@
 # Bookmarks Extended - Browser Extention
 
+## Synopsis
+
 I started this project as a fork of https://github.com/KM-Bookmarks/bookm-parser
 but got rid of all of it because after instaling rust, your code didnt even work for my system for some reason (possibly the last real commit being 7 years ago had something to do with it...) Python for life 😎
 
-This is a bookmarks extender extension. The idea being that it helps autocategorise newly added bookmarks by replacing the current menu with a new menu that uses AI to generate a few of the most likely categories at the top and a search through your folders button for more preciseness if the suggestions weren't good enough. 
+This is a bookmarks extender extension. The idea being that it helps autocategorise newly added bookmarks by replacing the current menu with a new menu that uses AI to generate a few of the most likely categories at the top and a search through your folders button for more preciseness if the suggestions weren't good enough.
 
 ## Table Of Contents
 
 <!-- TOC -->
 
 - [Bookmarks Extended - Browser Extention](#bookmarks-extended---browser-extention)
+  - [Synopsis](#synopsis)
   - [Table Of Contents](#table-of-contents)
 - [What am I trying to do exactly?](#what-am-i-trying-to-do-exactly)
   - [Background / where I wanted to go at the start](#background--where-i-wanted-to-go-at-the-start)
@@ -37,6 +40,9 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
   - [16/5/23](#16523)
     - [Overview](#overview-2)
     - [Next Steps](#next-steps-2)
+  - [20/5/23](#20523)
+    - [Overview](#overview-3)
+    - [Next Steps](#next-steps-3)
 
 <!-- /TOC -->
 
@@ -50,7 +56,7 @@ I am currently using NightTab which is a new tab replacer that is populated with
 
 ## What I'm doing now
 
-I have been working on the project for about a week and I have decided there are improvments to do on both of the bookmarking tools. Firstly I dont want to have to manually folder each item when I bookmark, I want to be prompted a few autosuggestions for where the bookmark could go for example, youtube music videos will be prompted into the music categories, the types of music the user is most likely to be listening to will appear at the top ect ect.
+I have been working on the project for about a week and I have decided there are improvments to do on both of the bookmarking tools. Firstly I do not want to have to manually folder each item when I bookmark, I want to be prompted a few autosuggestions for where the bookmark could go for example, youtube music videos will be prompted into the music categories, the types of music the user is most likely to be listening to will appear at the top ect ect.
 
 I also want to either fork nightTab or make my own newtab web extension that reads and exports to csv and has the ability to import bookmarks from firefox/google/browser and all the other types.
 
@@ -86,9 +92,10 @@ This _README.md_ is so people like me and you can remember what the fuck this wh
 **Unessesary Added Complexities**
 I decided I will be using an ai model to not only categorise the bookmarks and give appropriate quick suggestions but also to help generate favicons. I may also need a icon library such as fontawesome to use in combination.
 
-My only worry currently is that it doesnt fit everything well enough, like youtube links will probably all come under visual / entertainment even if their content can be drastically different depending on the video
+My only worry currently is that it does not fit everything well enough, like youtube links will probably all come under visual / entertainment even if their content can be drastically different depending on the video
 
 # Website new tab override
+
 [documentation](./bookmark-tab/README.md)
 
 # Python script collection ( conversions )
@@ -112,7 +119,6 @@ Tasks:
 Turning the csv generated from the process before (firefox bookmarks to csv and nighttab bookmarks to csv) and using those combined csv files as data to flow into a webpage as their bookmarks under their categories.
 
 For the website I want a focus to be on integrating the python script into it and being able to edit how folders look and interact. With a focus on the data handling and how users can import more data if they wish and formatting data themselves as they please.
-
 
 ## Possible API integrations
 
@@ -162,6 +168,7 @@ Steps required to create a new tab web extension:
 9. Maintain and update your extension: Monitor your extension's performance, fix any bugs or issues that arise, and update it with new features and improvements as needed.
 
 # Machine Learning Model
+
 ## steps
 
 To categorize URLs into broad and specialized categories, you can use a supervised machine learning algorithm such as a classification algorithm. Here are the steps you can follow:
@@ -267,21 +274,22 @@ and its basically as easy as that...
 
 # The Project, Disected & timed out
 
-| Task                                                             | Estimated Hours | Assignee    | Status             |
-| ---------------------------------------------------------------- | --------------- | ----------- | ------------------ |
-| **Yeah, This Might Take Me A Solid Year To Finish**              |                 |             |                    |
-| 1. python script that converts Bookmark.html > bookmark.csv      | ~7 hours        | Riley Smith | :heavy_check_mark: |
-| 2. python script that converts Bookmark.json > bookmark.csv      | ~8 hours        | Riley Smith | :heavy_check_mark: |
-| 3. python script that merges the previous two csv files into one | ~1 hours        | Riley Smith | Not Started        |
-| 4. Reverse step 1.                                               | ~3 hours        | Riley Smith | Not Started        |
-| 5. Reverse step 2.                                               | ~2 hours        | Riley Smith | Not Started        |
-| 6. Machine Learning Model 1                                      | ~12 hours       | Riley Smith | Not Started        |
-| 6. Machine Learning Model 2                                      | ~12 hours       | Riley Smith | Not Started        |
-| 6. Machine Learning Model 3                                      | ~12 hours       | Riley Smith | Not Started        |
-| 7. [Basic website](./bookmark-tab/README.md) - **First Release**                                 | ~2 hours        | Riley Smith | Not Started        |
-| 8. [Website improvements](./bookmark-tab/README.md) - **Second Release**                          | >7 hours        | Riley Smith | Not Started        |
+| Task                                                                     | Estimated Hours | Assignee    | Status             |
+| ------------------------------------------------------------------------ | --------------- | ----------- | ------------------ |
+| **Yeah, This Might Take Me A Solid Year To Finish**                      |                 |             |                    |
+| 1. python script that converts Bookmark.html > bookmark.csv              | ~7 hours        | Riley Smith | :heavy_check_mark: |
+| 2. python script that converts Bookmark.json > bookmark.csv              | ~8 hours        | Riley Smith | :heavy_check_mark: |
+| 3. python script that merges the previous two csv files into one         | ~1 hours        | Riley Smith | Not Started        |
+| 4. Reverse step 1.                                                       | ~3 hours        | Riley Smith | Not Started        |
+| 5. Reverse step 2.                                                       | ~2 hours        | Riley Smith | Not Started        |
+| 6. Machine Learning Model 1                                              | ~12 hours       | Riley Smith | Not Started        |
+| 6. Machine Learning Model 2                                              | ~12 hours       | Riley Smith | Not Started        |
+| 6. Machine Learning Model 3                                              | ~12 hours       | Riley Smith | Not Started        |
+| 7. [Basic website](./bookmark-tab/README.md) - **First Release**         | ~2 hours        | Riley Smith | Not Started        |
+| 8. [Website improvements](./bookmark-tab/README.md) - **Second Release** | >7 hours        | Riley Smith | Not Started        |
 
 # PROJECT LOG
+
 this is a log for my progress, intended for just me but can be useful if you want to contribute or just know how the project is going and where its headed.
 time format dd/mm/yy because im no psyco.
 
@@ -290,9 +298,11 @@ time format dd/mm/yy because im no psyco.
 ![](website_progress_15523.PNG)
 
 ### Overview
+
 This seems like a good spot to finish up for the night. I made the website look nicer and cleaned up the readme so it looks a bit easier to read. Next time I will probably be setting up react as it has been all fine and dandy making the website look nice but its going to need linked lists and data structures and folders and that seems near impossible to do in vanilla js and I know what im doing with react so it shouldnt be too hard.
 
 ### Next Steps
+
 - Implement React
 - Date and time fetcher
 - connect the config file to css variables + some config for date time formats and such?
@@ -303,6 +313,7 @@ This seems like a good spot to finish up for the night. I made the website look 
 ## 14/5/23
 
 ### Overview
+
 Big one is that I have gone from the boilerplate from the previous log that was written in plain html, js and css into react which should handle procedurally generating the bookmarks and it integrates with node a bit nicer than plain html, css js.
 
 Converted from .conf to .yml just because I like yaml more and It looks like nested items get more readable (https://yaml.org/spec/1.2.2/#example-compact-nested-mapping) which I want because I want to use yaml instead of csv as the final export. It is a smaller file than json and html so it should mean the bookmarks load faster anyways so I see no issue with converting... yet...
@@ -312,6 +323,7 @@ css colour variables are now stored in the .yml (YAML) file, have not been conne
 [website now has its own seperated documentation](./bookmark-tab/README.md)
 
 ### Next Steps
+
 - Remake orginal website in nextjs
 - Date and time fetcher
 - connect the config file to css variables + some config for date time formats and such?
@@ -322,7 +334,38 @@ css colour variables are now stored in the .yml (YAML) file, have not been conne
 ## 16/5/23
 
 ### Overview
-???
+
+![](website_progress_16523.png)
+
+```
++ Next JS App Converted
++ Clock Added
++ Backend called
+```
+
+Useful Youtube tutorials used
+
+- Fireship - Next.js 13 - The Basics https://www.youtube.com/watch?v=__mSgDEOyv8&t=248s
+- Alex Eagleson - How to Build Scalable Architecture for your Next.js Project https://www.youtube.com/watch?v=Iu5aZDqZt8E&t=3214s
+- Alex seems very competent and good at setting up projects for future proofing and git management, the video is just outdated and some of the imports broke nextjs.
+
+Took inspiration from:
+https://github.com/sergiss/react-clock
+once everything up and running will add some bool config options such as 24h clock, date format ect...
 
 ### Next Steps
-- ???
+
+- **git autorunner script so I cant upload to github without code working properly, USE** **_HUSKY_**
+- Learn how pocketbase works and integrates with users. Accounts, Config save, Bookmarks backups ect.
+- connect the config file to css variables + some config for date time formats and such?
+- Implement Foldered data from a csv
+- Searchbar? - at least decide what you will be doing when it comes to searching for links and keywords and such
+- Does the json to csv need fixed or was csv not the best idea for foldered data in the first place? offer alternative solutions
+
+## 20/5/23
+
+### Overview
+
+the website is not working properly, I suspect it has something to do with nextjs. I do not understand it enough and may need to reasearch nextjs.
+
+### Next Steps
