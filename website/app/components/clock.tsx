@@ -1,5 +1,9 @@
-"use client";
-import React, { useEffect, useState } from "react";
+'use client'
+// @refresh reset
+// @ts-nocheck
+// use client
+
+import React, { useEffect, useState } from 'react';
 
 const Clock = () => {
   const [date, setDate] = useState(new Date());
@@ -103,4 +107,5 @@ export const Word = ({
   );
 };
 
-export default Clock;
+export { Clock as default };
+
