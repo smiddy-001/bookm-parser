@@ -167,27 +167,22 @@ To categorize URLs into broad and specialized categories, you can use a supervis
    - Clean the URLs to remove any irrelevant information (e.g. query strings).
    - Extract features from the URLs that can be used for classification. For example, you can extract the domain name, the length of the URL, the presence of certain keywords in the URL, etc.
    - You can also use external data sources to enrich your dataset, such as adding metadata about the URLs (e.g. from an API that provides information about web pages).
-
 2. Labeling:
 
    - Label each URL in your dataset with the corresponding broad and specialized categories. You can do this manually or use an existing dataset as a reference.
-
 3. Training:
 
    - Split your dataset into training and test sets.
    - Train a supervised classification algorithm (e.g. logistic regression, random forest, support vector machine, etc.) on the training set using the features and labels you extracted in steps 1 and 2.
    - Evaluate the performance of the trained algorithm on the test set. You can use metrics such as accuracy, precision, recall, and F1-score to evaluate the performance.
-
 4. Prediction:
 
    - Use the trained algorithm to predict the categories of new URLs.
    - You can also use the feature importance scores to identify the most important features for classification.
-
 5. Refinement:
 
    - Refine the algorithm by tuning the hyperparameters and retraining on the entire dataset.
    - You can also consider using techniques such as cross-validation and ensemble methods to improve the performance of the algorithm.
-
 6. Deployment:
 
    - Deploy the algorithm to categorize new URLs in real-time.
@@ -205,7 +200,6 @@ and its basically as easy as that...
    c. Create a CSV file and write the parsed data into it.
 
    d. Save the CSV file and close it.
-
 2. Python script to convert bookmarks.json to csv:
 
    a. Import the necessary libraries, such as JSON and CSV.
@@ -215,7 +209,6 @@ and its basically as easy as that...
    c. Create a CSV file and write the data from the Python object into it.
 
    d. Save the CSV file and close it.
-
 3. Python script to merge the bookmarks.csv files created in step 1 and step 2:
 
    a. Import the necessary libraries, such as CSV.
@@ -227,7 +220,6 @@ and its basically as easy as that...
    d. Create a new CSV file and write the merged data into it.
 
    e. Save the CSV file and close it.
-
 4. Python script to convert the merged CSV file (created in step 3) back to bookmarks.html:
 
    a. Import the necessary libraries, such as CSV and BeautifulSoup.
@@ -237,7 +229,6 @@ and its basically as easy as that...
    c. Create a new bookmarks.html file using BeautifulSoup and write the data from the Python object into it.
 
    d. Save the bookmarks.html file and close it.
-
 5. Python script to convert the merged CSV file (created in step 3) back to bookmarks.json:
 
    a. Import the necessary libraries, such as CSV and JSON.
@@ -249,7 +240,6 @@ and its basically as easy as that...
    d. Create a new bookmarks.json file and write the JSON object into it.
 
    e. Save the bookmarks.json file and close it.
-
 6. Machine Learning Model
 
    b. Clean the URLs to remove any irrelevant information (e.g. query strings).
@@ -257,24 +247,23 @@ and its basically as easy as that...
    c. Extract features from the URLs that can be used for classification. For example, you can extract the domain name, the length of the URL, the presence of certain keywords in the URL, etc.
 
    d. You can also use external data sources to enrich your dataset, such as adding metadata about the URLs (e.g. from an API that provides information about web pages).
-
 7. [Website](./bookmark-tab/README.md)
 
 ---
 
 # The Project, Disected & timed out
 
-| Task                                                                    | Estimated Hours | Assignee    | Status      |
-| ----------------------------------------------------------------------- | --------------- | ----------- | ----------- |
-| **Yeah, This Might Take Me A Solid Year To Finish**                     |                 |             |             |
-| 1. python script that converts Bookmark.html > bookmark.csv             | ~7 hours        | Riley Smith | ✔️          |
-| 2. python script that converts Bookmark.json > bookmark.csv             | ~8 hours        | Riley Smith | ✔️          |
-| 3. python script that merges the previous two csv files into one        | ~1 hours        | Riley Smith | Not Started |
-| 4. Reverse step 1.                                                      | ~3 hours        | Riley Smith | Not Started |
-| 5. Reverse step 2.                                                      | ~2 hours        | Riley Smith | Not Started |
-| 6. Machine Learning Model 1                                             | ~12 hours       | Riley Smith | Not Started |
-| 6. Machine Learning Model 2                                             | ~12 hours       | Riley Smith | Not Started |
-| 6. Machine Learning Model 3                                             | ~12 hours       | Riley Smith | Not Started |
+| Task                                                                       | Estimated Hours | Assignee    | Status      |
+| -------------------------------------------------------------------------- | --------------- | ----------- | ----------- |
+| **Yeah, This Might Take Me A Solid Year To Finish**                  |                 |             |             |
+| 1. python script that converts Bookmark.html > bookmark.csv                | ~7 hours        | Riley Smith | ✔️        |
+| 2. python script that converts Bookmark.json > bookmark.csv                | ~8 hours        | Riley Smith | ✔️        |
+| 3. python script that merges the previous two csv files into one           | ~1 hours        | Riley Smith | Not Started |
+| 4. Reverse step 1.                                                         | ~3 hours        | Riley Smith | Not Started |
+| 5. Reverse step 2.                                                         | ~2 hours        | Riley Smith | Not Started |
+| 6. Machine Learning Model 1                                                | ~12 hours       | Riley Smith | Not Started |
+| 6. Machine Learning Model 2                                                | ~12 hours       | Riley Smith | Not Started |
+| 6. Machine Learning Model 3                                                | ~12 hours       | Riley Smith | Not Started |
 | 7.[Basic website](./bookmark-tab/README.md) - **First Release**         | ~2 hours        | Riley Smith | Not Started |
 | 8.[Website improvements](./bookmark-tab/README.md) - **Second Release** | >7 hours        | Riley Smith | Not Started |
 
@@ -360,14 +349,166 @@ Not alot done today, fixed a bug in which the clock component wasnt loading clie
 
 ## 22/5/23
 
-### Plan for today
+### Overview
 
-Today I will be setting up Husky with my nextjs app. this will only allow working code to be pushed to the git repo
+I have redesigned everything in a seperate folder and although this was disruptive it has a working backend sever and is smaller and faster which should be overall good for the project. So far I will just be working on the backend but Will integrate the react files I have so far and figure out what I am doing with the python files, currently im thinking to just convert it all to js for consistency sake.
+
+## Next Steps
+
+- crud - Create, Read, Update, Delete
+- Backend - crud users
+- Backend - crud bookmarks
+- Backend - Oauth
+- Web connect to the backend
+
+Below is one way of stoing the data I don't want to do it this way but it covers all data I want to store in one massive unoptimised json blob
+
+```json
+"bookmarks": [
+	{
+	"title": "Cool youtube videos",
+	"bg": "303fff",
+	"fg": "ffffff",
+	"icon": "FaYoutube"
+	"children": [
+		{
+		"link": {
+			"url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+			"title": "Learn the MERN Stack",
+			"tags": [
+				"cool", 
+				"youtube", 
+				"video"
+			],
+			"visit_count": 1,
+			"add_date": 1682698522,
+			"last_modified": 1682902432
+		},
+		"head": {
+			"title": ""
+			"icon": "FaReact"
+		},
+		{
+		"link": {
+			"url": "https://www.youtube.com/watch?v=vQANrgpnztw",
+			"title": "SPFDJ | Boiler Room Berlin: Intrepid Skin",
+			"tags": [
+				"dj", 
+				"youtube", 
+				"music",
+				"live"
+			]
+		},
+		"head": {
+			"title": "DJ"
+			"icon": ""
+		}
+	]
+	},
+	{
+	"title": "Cool youtube videos",
+	"bg": "303fff",
+	"fg": "ffffff",
+	"icon": "FaYoutube"
+	"children": [
+		{
+		"link": {
+			"url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
+			"title": "Learn the MERN Stack",
+			"tags": [
+				"cool", 
+				"youtube", 
+				"video"
+			],
+			"visit_count": 1,
+			"add_date": 1682698522,
+			"last_modified": 1682902432
+		},
+		"head": {
+			"title": ""
+			"icon": "FaReact"
+		},
+		{
+		"link": {
+			"url": "https://www.youtube.com/watch?v=vQANrgpnztw",
+			"title": "SPFDJ | Boiler Room Berlin: Intrepid Skin",
+			"tags": [
+				"dj", 
+				"youtube", 
+				"music",
+				"live"
+			]
+		},
+		"head": {
+			"title": "DJ"
+			"icon": ""
+		}
+	]
+	}
+]
+```
+
+The json blob looks like absolute fucking chaos and I will not be using it.
+
+I want to use a backend to push, get, replace and remove data and do not want to force users to edit and push the whole blob when they want to add a link to their bookmarks.
+
+[https://www.baeldung.com/cs/storing-tree-in-rdb](https://www.baeldung.com/cs/storing-tree-in-rdb)
+
+![1684798009788](image/README/1684798009788.png)
+
+using the above diagram We can see how I will be storing the information.
+
+That for a folder
+
+```json
+"id": 0
+"parent": NULL
+"is_folder": true,
+"title": "foldername",
+"children_use_parent_style": false,
+"folder_icon": "faFolder"
+```
+
+For a link inside that folder
+
+```json
+"id": 1
+"parent": 0
+"is_folder": false,
+"url": "www.google.com",
+"title": "Google",
+"header": "faGoogle",
+"bg": "fcf",
+"fg": "000000"
+```
+
+For a folder inside the first folder
+
+```json
+"id": 2
+"parent": 0
+"is_folder": true,
+"title": "folder 2!",
+"children_use_parent_style": true,
+"folder_icon": "faYoutube",
+"bg": "000000",
+"fg": "ffffff",
+"icon": "faVideo"
+```
+
+For a link inside that folder inside the original folder using the style explicitly defined in the previous code (bg, fg, icon)
+
+```json
+"id": 3
+"parent": 2
+"is_folder": false,
+"url": "www.youtube.com",
+"title": "Google",
+"header": "faGoogle"
+```
+
+## 23/5/23
 
 ### Overview
 
-... test
-
-### Next Steps
-
-...
+I have redesigned everything in a seperate folder and although this was disruptive it has a working backend sever and is smaller and faster which should be overall good for the project. So far I will just be working on the backend but Will integrate the react files I have so far and figure out what I am doing with the python files, currently im thinking to just convert it all to js for consistency sake.
