@@ -1,0 +1,33 @@
+{
+  "Imports": {
+    "bmToCsv": "python\\components\\browser_bookmarks_to_csv.py",
+    "ntToCsv": "python\\components\\nighttabjson_to_csv.py",
+    "uneditedFolder": "python\\original",
+    "editedFolder": "python\\processed"
+  },
+  "Unedited": {
+    "bookmarkFile": "bookmarks",
+    "nightTabFile": "nightTab"
+  },
+  "Edited": {
+    "output": "output"
+  },
+  "Css": {
+    "white": "edf2f3",
+    "whiteSecondary": "c4d7db",
+    "black": "1a2224",
+    "blackSecondary": "3b494d"
+  },
+  "Subjects": {
+    "mathematics": "0000FF",
+    "geography": "228B22",
+    "physics": "800080",
+    "biology": "1E90FF",
+    "chemistry": "008000",
+    "psychology": "D8BFD8",
+    "computerScience": "006400",
+    "philosophy": "F5DEB3",
+    "english": "FFFF00",
+    "engineering": "FFD700"
+  }
+}
