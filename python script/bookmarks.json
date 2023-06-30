@@ -2001,6 +2001,23 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "id": 1037,
+                                "parent": 33,
+                                "title": "guitar tabs",
+                                "url": null,
+                                "type": 2,
+                                "children": [
+                                    {
+                                        "id": 1038,
+                                        "parent": 1037,
+                                        "title": "charlottes thong chords by connan mockasin at ultimate",
+                                        "url": "https://tabs.ultimate-guitar.com/tab/connan-mockasin/charlottes-thong-chords-3283625",
+                                        "type": 1,
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },

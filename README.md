@@ -680,3 +680,8 @@ I think I want to be sneaky about how I store userdata with some of the unused f
 - new tab editing suite??? grid or flex, how would users customise?
 - run python from js? http network it all
 - get python script either working on all platforms and OS / use the official bookmarks api can users edit bookmarks from new tab or do they have to edit bookmarks through bookmarks tab thingamabob
+- connect to spotify, youtube, pinterest
+
+[https://open.spotify.com/user/cookieplotso/playlists]("https://open.spotify.com/user/cookieplotso/playlists")
+[https://www.pinterest.nz/riileysmith1998/_saved/]("https://www.pinterest.nz/riileysmith1998/_saved/")
+[https://www.youtube.com/@rileysmith9201/playlists]('https://www.youtube.com/@rileysmith9201/playlists')
