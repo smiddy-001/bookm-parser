@@ -12,40 +12,56 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
 <!-- TOC -->
 
 - [Bookmarks Extended - Browser Extention](#bookmarks-extended---browser-extention)
-  - [Synopsis](#synopsis)
-  - [Table Of Contents](#table-of-contents)
+	- [Synopsis](#synopsis)
+	- [Table Of Contents](#table-of-contents)
 - [What am I trying to do exactly?](#what-am-i-trying-to-do-exactly)
-  - [Background / where I wanted to go at the start](#background--where-i-wanted-to-go-at-the-start)
-  - [What I&#39;m doing now](#what-im-doing-now)
-  - [How to use this repo in its curlerent unusable state.](#how-to-use-this-repo-in-its-curlerent-unusable-state)
-  - [What each file Is...](#what-each-file-is)
+	- [Background / where I wanted to go at the start](#background--where-i-wanted-to-go-at-the-start)
+	- [What I'm doing now](#what-im-doing-now)
+	- [How to use this repo in its curlerent unusable state.](#how-to-use-this-repo-in-its-curlerent-unusable-state)
+	- [What each file Is...](#what-each-file-is)
 - [Website new tab override](#website-new-tab-override)
 - [Python script collection ( conversions )](#python-script-collection--conversions-)
-  - [Steps](#steps)
+	- [Steps](#steps)
 - [Cleaned CSV files to website](#cleaned-csv-files-to-website)
-  - [Possible API integrations](#possible-api-integrations)
-  - [Color Theory](#color-theory)
-  - [Steps](#steps-1)
+	- [Possible API integrations](#possible-api-integrations)
+	- [Color Theory](#color-theory)
+	- [Steps](#steps-1)
 - [Machine Learning Model](#machine-learning-model)
-  - [steps](#steps-2)
+	- [steps](#steps-2)
 - [Big List :)](#big-list-)
 - [The Project, Disected \& timed out](#the-project-disected--timed-out)
 - [PROJECT LOG](#project-log)
-  - [12/5/23](#12523)
-    - [Overview](#overview)
-    - [Next Steps](#next-steps)
-  - [14/5/23](#14523)
-    - [Overview](#overview-1)
-    - [Next Steps](#next-steps-1)
-  - [16/5/23](#16523)
-    - [Overview](#overview-2)
-    - [Next Steps](#next-steps-2)
-  - [20/5/23](#20523)
-    - [Overview](#overview-3)
-  - [22/5/23](#22523)
-    - [Plan for today](#plan-for-today)
-    - [Overview](#overview-4)
-    - [Next Steps](#next-steps-3)
+	- [12/5/23](#12523)
+		- [Overview](#overview)
+		- [Next Steps](#next-steps)
+	- [14/5/23](#14523)
+		- [Overview](#overview-1)
+		- [Next Steps](#next-steps-1)
+	- [16/5/23](#16523)
+		- [Overview](#overview-2)
+		- [Next Steps](#next-steps-2)
+	- [20/5/23](#20523)
+		- [Overview](#overview-3)
+	- [22/5/23](#22523)
+		- [Overview](#overview-4)
+	- [Next Steps](#next-steps-3)
+	- [23/5/23](#23523)
+		- [Overview](#overview-5)
+	- [25/5/23](#25523)
+		- [Overview](#overview-6)
+		- [Next Steps](#next-steps-4)
+	- [26/5/23](#26523)
+		- [Overview](#overview-7)
+			- [UI Inspiration](#ui-inspiration)
+			- [Not Using](#not-using)
+			- [Using](#using)
+			- [Fonts](#fonts)
+			- [Proposed Plan #1](#proposed-plan-1)
+	- [27/5/23](#27523)
+		- [Overview](#overview-8)
+	- [30/6/23](#30623)
+		- [Overview](#overview-9)
+		- [Next Steps](#next-steps-5)
 
 <!-- /TOC -->
 
@@ -597,30 +613,70 @@ Use a grid system (bottom image) to show where on the website a component is to 
 
 Merged unstable local project back into git project
 
+## 30/6/23
 
-> ### Email for Advice to similar project
->
-> Hiya, I am currently working completley solo on a similar type of project and wanted some advice, it would mean alot if you could flick me a email rileys1000@gmail.com.
->
-> My project took the problem of bookmarks in general being hard to manage, categorise & navigate when they get larger, I currently have ~1000 bookmarks and am seeing problems, mainly to do with categorising and navigating.
->
-> My solution to this problem was to create a full stack app. Using the default bookmarks from the browser api I would design the website with simplisity and customisablity as top prioroty.
->
-> I also wanted to incorporate a small machine learning model that runs on the cloud to help autocategorise bookmarks when they are added.
->
-> I also wanted to format a few things that bugged me when I saved bookmarks like how youtube bookmarks are saved as
-> '(105) Intense ‎- Breathless - YouTube' when It should just be 'Intense ‎- Breathless' and a youtube favicon. Also wanted to style it all out like how eslint and prettier formats code, like (title - author) and possibly taking inspiration from citation methods such as APA ect... possibly using web scrapers to scan for information or possibly getting in touch with the citation firefox extension.
->
-> So far I have finished the backend for the website data & user settings, I am currently working on wireframes and code flow diagrams for everything but if you are keen on giving me a hand or even some advice as I am rather young(19) for such an ambitous project that would really mean alot to me.
->
-> I intend on releasing it as open source and hopefully getting funding from my university when the project is complete. I am doing this because it has been bugging me for a while that something doesnt do this already plus if I do this correctly it can be a good thing to put on my cv in the future.
+### Overview
 
+Got took over with final exams, however I have a solid week to work unobstructed on this project and I am feeling very confident about it.
 
+I have restarted several times trying to simplify the process and have just succesfully linted a json file and exported as a json with correct child folders and will be using it as a guide for my javascript when I use with the web.
 
-### Project Statment
+Was extremley fast in python, processed 904 bookmarks through a linter, spellcheck, format unionisation and redundant text removal then converted to a tree style json in less than 1s ~0.44 megabytes.
 
-- manage bookmarks
-- navigate bookmarks
-- Simple / minimal
-- Customisable
-- Free & open source
+```json
+[
+    {
+        "id": 1,
+        "parent": 0,
+        "title": "",
+        "url": null,
+        "type": 2,
+        "children": [
+            {
+                "id": 3,
+                "parent": 1,
+                "title": "toolbar",
+                "url": null,
+                "type": 2,
+                "children": [
+                    {
+                        "id": 14,
+                        "parent": 3,
+                        "title": "arts",
+                        "url": null,
+                        "type": 2,
+                        "children": [
+                            {
+                                "id": 15,
+                                "parent": 14,
+                                "title": "darek zabrocki",
+                                "url": "https://www.artstation.com/zabrocki",
+                                "type": 1,
+                                "children": []
+                            },
+                            {
+                                "id": 16,
+                                "parent": 14,
+                                "title": "xintong chen",
+                                "url": "https://www.artstation.com/zncu",
+                                "type": 1,
+                                "children": []
+                            },
+                            {
+                                "id": 17,
+                                "parent": 14,
+								...
+								..
+								.
+```
+*snippet from correct & final json*
+
+### Next Steps
+
+I think I want to be sneaky about how I store userdata with some of the unused folders like mobile bookmarks folder to trick mozilla, google cloud servers into storing user config data on their server meaning users can uninstall on one computer and still keep settings also allows cross computer saving and really just stops me needing to operate and manage a database.
+
+- find a way of storing user constants
+- calendar & daily weekly task integration? how would that look? are we using ai?
+- new tab editing suite??? grid or flex, how would users customise?
+- run python from js? http network it all
+- get python script either working on all platforms and OS / use the official bookmarks api can users edit bookmarks from new tab or do they have to edit bookmarks through bookmarks tab thingamabob
