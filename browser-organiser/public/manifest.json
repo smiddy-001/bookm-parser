@@ -1,6 +1,9 @@
 {
   "short_name": "New tab",
-  "name": "New tab override extension webapp",
+  "name": "tab enhance",
+  "permissions": [
+    "bookmarks"
+  ],
   "icons": [
     {
       "src": "favicon.ico",

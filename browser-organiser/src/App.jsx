@@ -11,9 +11,6 @@ function BookmarkTile(props) {
 function App() {
   return (
     <div className="App" style={{display: "flex", justifyContent: "center", flexDirection: "column"}}>
-      <h1>Hello World</h1>
-
-      My name is Riley and I hope this isn't broken.
       <div className="gridContainer" style={{display: "grid", justifyContent: "center", alignItems:"center", gridTemplateColumns:"1fr 1fr 1fr 1fr 1fr", gap: "4rem", marginTop: "4rem"}}>
         <BookmarkTile title="hello World!"></BookmarkTile>
         <BookmarkTile title="hello World!"></BookmarkTile>

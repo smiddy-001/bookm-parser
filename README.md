@@ -62,6 +62,10 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
 	- [30/6/23](#30623)
 		- [Overview](#overview-9)
 		- [Next Steps](#next-steps-5)
+	- [1/7/23](#1723)
+		- [Overview](#overview-10)
+	- [2/7/23](#2723)
+		- [Overview](#overview-11)
 
 <!-- /TOC -->
 
@@ -470,7 +474,7 @@ I want to use a backend to push, get, replace and remove data and do not want to
 
 [https://www.baeldung.com/cs/storing-tree-in-rdb](https://www.baeldung.com/cs/storing-tree-in-rdb)
 
-![1684798009788](image/README/1684798009788.png)
+![1684798009788](images/1684798009788.png)
 
 using the above diagram We can see how I will be storing the information.
 
@@ -577,7 +581,7 @@ Today was all about planning the project to make future Riley's job easier. I mi
 
 #### UI Inspiration
 
-![1685074989251](image/README/1685074989251.png)
+![1685074989251](Images/1685074989251.png)
 
 the above inspiration will be used in the design of the webiste. With the main takeway being that we
 
@@ -585,7 +589,7 @@ Use analogue real world symoblic representations to represent where in the tree 
 
 Use a grid system (bottom image) to show where on the website a component is to be placed, also maybe allowing users to move where things are in the grid and whether they want to show some things.
 
-![1685076463554](image/README/1685076463554.png)
+![1685076463554](Images/1685076463554.png)
 
 #### Not Using
 
@@ -601,7 +605,7 @@ Use a grid system (bottom image) to show where on the website a component is to 
 
 #### Fonts
 
-![1685089277061](image/README/1685089277061.png)
+![1685089277061](Images/1685089277061.png)
 
 #### Proposed Plan #1
 
@@ -682,6 +686,19 @@ I think I want to be sneaky about how I store userdata with some of the unused f
 - get python script either working on all platforms and OS / use the official bookmarks api can users edit bookmarks from new tab or do they have to edit bookmarks through bookmarks tab thingamabob
 - connect to spotify, youtube, pinterest
 
-[https://open.spotify.com/user/cookieplotso/playlists]("https://open.spotify.com/user/cookieplotso/playlists")
-[https://www.pinterest.nz/riileysmith1998/_saved/]("https://www.pinterest.nz/riileysmith1998/_saved/")
-[https://www.youtube.com/@rileysmith9201/playlists]('https://www.youtube.com/@rileysmith9201/playlists')
+## 1/7/23
+
+### Overview
+
+converting the python scripts to js & deciding to use the [website previously created](WEB-README.md)
+
+## 2/7/23
+
+### Overview
+
+finalised the plan & sketching up components in illustrator as SVG's to be formatted as inline svg's with text replacers then fixing the website hopefully.
+
+![image](Images\newest_web_example.png)
+*taken heavy influince from pinterest artist, I will reference and modify in final*
+
+started the illustrator file, still more work needs done but looking good so far...
