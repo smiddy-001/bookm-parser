@@ -12,60 +12,63 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
 <!-- TOC -->
 
 - [Bookmarks Extended - Browser Extention](#bookmarks-extended---browser-extention)
-	- [Synopsis](#synopsis)
-	- [Table Of Contents](#table-of-contents)
+  - [Synopsis](#synopsis)
+  - [Table Of Contents](#table-of-contents)
 - [What am I trying to do exactly?](#what-am-i-trying-to-do-exactly)
-	- [Background / where I wanted to go at the start](#background--where-i-wanted-to-go-at-the-start)
-	- [What I'm doing now](#what-im-doing-now)
-	- [How to use this repo in its curlerent unusable state.](#how-to-use-this-repo-in-its-curlerent-unusable-state)
-	- [What each file Is...](#what-each-file-is)
+  - [Background / where I wanted to go at the start](#background--where-i-wanted-to-go-at-the-start)
+  - [What I'm doing now](#what-im-doing-now)
+  - [How to use this repo in its curlerent unusable state.](#how-to-use-this-repo-in-its-curlerent-unusable-state)
+  - [What each file Is...](#what-each-file-is)
 - [Website new tab override](#website-new-tab-override)
 - [Python script collection ( conversions )](#python-script-collection--conversions-)
-	- [Steps](#steps)
+  - [Steps](#steps)
 - [Cleaned CSV files to website](#cleaned-csv-files-to-website)
-	- [Possible API integrations](#possible-api-integrations)
-	- [Color Theory](#color-theory)
-	- [Steps](#steps-1)
+  - [Possible API integrations](#possible-api-integrations)
+  - [Color Theory](#color-theory)
+  - [Steps](#steps-1)
 - [Machine Learning Model](#machine-learning-model)
-	- [steps](#steps-2)
+  - [steps](#steps-2)
 - [Big List :)](#big-list-)
 - [The Project, Disected \& timed out](#the-project-disected--timed-out)
 - [PROJECT LOG](#project-log)
-	- [12/5/23](#12523)
-		- [Overview](#overview)
-		- [Next Steps](#next-steps)
-	- [14/5/23](#14523)
-		- [Overview](#overview-1)
-		- [Next Steps](#next-steps-1)
-	- [16/5/23](#16523)
-		- [Overview](#overview-2)
-		- [Next Steps](#next-steps-2)
-	- [20/5/23](#20523)
-		- [Overview](#overview-3)
-	- [22/5/23](#22523)
-		- [Overview](#overview-4)
-	- [Next Steps](#next-steps-3)
-	- [23/5/23](#23523)
-		- [Overview](#overview-5)
-	- [25/5/23](#25523)
-		- [Overview](#overview-6)
-		- [Next Steps](#next-steps-4)
-	- [26/5/23](#26523)
-		- [Overview](#overview-7)
-			- [UI Inspiration](#ui-inspiration)
-			- [Not Using](#not-using)
-			- [Using](#using)
-			- [Fonts](#fonts)
-			- [Proposed Plan #1](#proposed-plan-1)
-	- [27/5/23](#27523)
-		- [Overview](#overview-8)
-	- [30/6/23](#30623)
-		- [Overview](#overview-9)
-		- [Next Steps](#next-steps-5)
-	- [1/7/23](#1723)
-		- [Overview](#overview-10)
-	- [2/7/23](#2723)
-		- [Overview](#overview-11)
+  - [12/5/23](#12523)
+    - [Overview](#overview)
+    - [Next Steps](#next-steps)
+  - [14/5/23](#14523)
+    - [Overview](#overview-1)
+    - [Next Steps](#next-steps-1)
+  - [16/5/23](#16523)
+    - [Overview](#overview-2)
+    - [Next Steps](#next-steps-2)
+  - [20/5/23](#20523)
+    - [Overview](#overview-3)
+  - [22/5/23](#22523)
+    - [Overview](#overview-4)
+  - [Next Steps](#next-steps-3)
+  - [23/5/23](#23523)
+    - [Overview](#overview-5)
+  - [25/5/23](#25523)
+    - [Overview](#overview-6)
+    - [Next Steps](#next-steps-4)
+  - [26/5/23](#26523)
+    - [Overview](#overview-7)
+      - [UI Inspiration](#ui-inspiration)
+      - [Not Using](#not-using)
+      - [Using](#using)
+      - [Fonts](#fonts)
+      - [Proposed Plan #1](#proposed-plan-1)
+  - [27/5/23](#27523)
+    - [Overview](#overview-8)
+  - [30/6/23](#30623)
+    - [Overview](#overview-9)
+    - [Next Steps](#next-steps-5)
+  - [1/7/23](#1723)
+    - [Overview](#overview-10)
+  - [2/7/23](#2723)
+    - [Overview](#overview-11)
+  - [3/7/23](#3723)
+    - [Overview](#overview-12)
+    - [Next Steps](#next-steps-6)
 
 <!-- /TOC -->
 
@@ -187,22 +190,27 @@ To categorize URLs into broad and specialized categories, you can use a supervis
    - Clean the URLs to remove any irrelevant information (e.g. query strings).
    - Extract features from the URLs that can be used for classification. For example, you can extract the domain name, the length of the URL, the presence of certain keywords in the URL, etc.
    - You can also use external data sources to enrich your dataset, such as adding metadata about the URLs (e.g. from an API that provides information about web pages).
+
 2. Labeling:
 
    - Label each URL in your dataset with the corresponding broad and specialized categories. You can do this manually or use an existing dataset as a reference.
+
 3. Training:
 
    - Split your dataset into training and test sets.
    - Train a supervised classification algorithm (e.g. logistic regression, random forest, support vector machine, etc.) on the training set using the features and labels you extracted in steps 1 and 2.
    - Evaluate the performance of the trained algorithm on the test set. You can use metrics such as accuracy, precision, recall, and F1-score to evaluate the performance.
+
 4. Prediction:
 
    - Use the trained algorithm to predict the categories of new URLs.
    - You can also use the feature importance scores to identify the most important features for classification.
+
 5. Refinement:
 
    - Refine the algorithm by tuning the hyperparameters and retraining on the entire dataset.
    - You can also consider using techniques such as cross-validation and ensemble methods to improve the performance of the algorithm.
+
 6. Deployment:
 
    - Deploy the algorithm to categorize new URLs in real-time.
@@ -220,6 +228,7 @@ and its basically as easy as that...
    c. Create a CSV file and write the parsed data into it.
 
    d. Save the CSV file and close it.
+
 2. Python script to convert bookmarks.json to csv:
 
    a. Import the necessary libraries, such as JSON and CSV.
@@ -229,6 +238,7 @@ and its basically as easy as that...
    c. Create a CSV file and write the data from the Python object into it.
 
    d. Save the CSV file and close it.
+
 3. Python script to merge the bookmarks.csv files created in step 1 and step 2:
 
    a. Import the necessary libraries, such as CSV.
@@ -240,6 +250,7 @@ and its basically as easy as that...
    d. Create a new CSV file and write the merged data into it.
 
    e. Save the CSV file and close it.
+
 4. Python script to convert the merged CSV file (created in step 3) back to bookmarks.html:
 
    a. Import the necessary libraries, such as CSV and BeautifulSoup.
@@ -249,6 +260,7 @@ and its basically as easy as that...
    c. Create a new bookmarks.html file using BeautifulSoup and write the data from the Python object into it.
 
    d. Save the bookmarks.html file and close it.
+
 5. Python script to convert the merged CSV file (created in step 3) back to bookmarks.json:
 
    a. Import the necessary libraries, such as CSV and JSON.
@@ -260,6 +272,7 @@ and its basically as easy as that...
    d. Create a new bookmarks.json file and write the JSON object into it.
 
    e. Save the bookmarks.json file and close it.
+
 6. Machine Learning Model
 
    b. Clean the URLs to remove any irrelevant information (e.g. query strings).
@@ -267,23 +280,24 @@ and its basically as easy as that...
    c. Extract features from the URLs that can be used for classification. For example, you can extract the domain name, the length of the URL, the presence of certain keywords in the URL, etc.
 
    d. You can also use external data sources to enrich your dataset, such as adding metadata about the URLs (e.g. from an API that provides information about web pages).
+
 7. [Website](./bookmark-tab/README.md)
 
 ---
 
 # The Project, Disected & timed out
 
-| Task                                                                       | Estimated Hours | Assignee    | Status      |
-| -------------------------------------------------------------------------- | --------------- | ----------- | ----------- |
-| **Yeah, This Might Take Me A Solid Year To Finish**                  |                 |             |             |
-| 1. python script that converts Bookmark.html > bookmark.csv                | ~7 hours        | Riley Smith | ✔️        |
-| 2. python script that converts Bookmark.json > bookmark.csv                | ~8 hours        | Riley Smith | ✔️        |
-| 3. python script that merges the previous two csv files into one           | ~1 hours        | Riley Smith | Not Started |
-| 4. Reverse step 1.                                                         | ~3 hours        | Riley Smith | Not Started |
-| 5. Reverse step 2.                                                         | ~2 hours        | Riley Smith | Not Started |
-| 6. Machine Learning Model 1                                                | ~12 hours       | Riley Smith | Not Started |
-| 6. Machine Learning Model 2                                                | ~12 hours       | Riley Smith | Not Started |
-| 6. Machine Learning Model 3                                                | ~12 hours       | Riley Smith | Not Started |
+| Task                                                                    | Estimated Hours | Assignee    | Status      |
+| ----------------------------------------------------------------------- | --------------- | ----------- | ----------- |
+| **Yeah, This Might Take Me A Solid Year To Finish**                     |                 |             |             |
+| 1. python script that converts Bookmark.html > bookmark.csv             | ~7 hours        | Riley Smith | ✔️          |
+| 2. python script that converts Bookmark.json > bookmark.csv             | ~8 hours        | Riley Smith | ✔️          |
+| 3. python script that merges the previous two csv files into one        | ~1 hours        | Riley Smith | ✔️ |
+| 4. Reverse step 1.                                                      | ~3 hours        | Riley Smith | ✔️ |
+| 5. Reverse step 2.                                                      | ~2 hours        | Riley Smith | ✔️ |
+| 6. Machine Learning Model 1                                             | ~12 hours       | Riley Smith | Not Started |
+| 6. Machine Learning Model 2                                             | ~12 hours       | Riley Smith | Not Started |
+| 6. Machine Learning Model 3                                             | ~12 hours       | Riley Smith | Not Started |
 | 7.[Basic website](./bookmark-tab/README.md) - **First Release**         | ~2 hours        | Riley Smith | Not Started |
 | 8.[Website improvements](./bookmark-tab/README.md) - **Second Release** | >7 hours        | Riley Smith | Not Started |
 
@@ -396,8 +410,8 @@ Below is one way of stoing the data I don't want to do it this way but it covers
 			"url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
 			"title": "Learn the MERN Stack",
 			"tags": [
-				"cool", 
-				"youtube", 
+				"cool",
+				"youtube",
 				"video"
 			],
 			"visit_count": 1,
@@ -413,8 +427,8 @@ Below is one way of stoing the data I don't want to do it this way but it covers
 			"url": "https://www.youtube.com/watch?v=vQANrgpnztw",
 			"title": "SPFDJ | Boiler Room Berlin: Intrepid Skin",
 			"tags": [
-				"dj", 
-				"youtube", 
+				"dj",
+				"youtube",
 				"music",
 				"live"
 			]
@@ -436,8 +450,8 @@ Below is one way of stoing the data I don't want to do it this way but it covers
 			"url": "https://www.youtube.com/watch?v=7CqJlxBYj-M",
 			"title": "Learn the MERN Stack",
 			"tags": [
-				"cool", 
-				"youtube", 
+				"cool",
+				"youtube",
 				"video"
 			],
 			"visit_count": 1,
@@ -453,8 +467,8 @@ Below is one way of stoing the data I don't want to do it this way but it covers
 			"url": "https://www.youtube.com/watch?v=vQANrgpnztw",
 			"title": "SPFDJ | Boiler Room Berlin: Intrepid Skin",
 			"tags": [
-				"dj", 
-				"youtube", 
+				"dj",
+				"youtube",
 				"music",
 				"live"
 			]
@@ -540,8 +554,9 @@ I have also connected the working react frontend with the somewhat functional ba
 axios is used in react to request from the backend.
 
 ```javascript
-axios.post('http://localhost:5000/users/add', user)
-	.then(res => console.log(res.data))
+axios
+  .post("http://localhost:5000/users/add", user)
+  .then((res) => console.log(res.data));
 /* used to send a post request to that specific endpoint 
 which is requesting a json */
 ```
@@ -598,10 +613,10 @@ Use a grid system (bottom image) to show where on the website a component is to 
 
 #### Using
 
-- cutive mono       - code / formal /
-- manalava            - informal /
-- poltawski nowy  - homely / formal / professional
-- vt323                  - Codey / statistical / reliability / automated
+- cutive mono - code / formal /
+- manalava - informal /
+- poltawski nowy - homely / formal / professional
+- vt323 - Codey / statistical / reliability / automated
 
 #### Fonts
 
@@ -673,7 +688,8 @@ Was extremley fast in python, processed 904 bookmarks through a linter, spellche
 								..
 								.
 ```
-*snippet from correct & final json*
+
+_snippet from correct & final json_
 
 ### Next Steps
 
@@ -699,6 +715,194 @@ converting the python scripts to js & deciding to use the [website previously cr
 finalised the plan & sketching up components in illustrator as SVG's to be formatted as inline svg's with text replacers then fixing the website hopefully.
 
 ![image](Images\newest_web_example.png)
-*taken heavy influince from pinterest artist, I will reference and modify in final*
+_taken heavy influince from pinterest artist, I will reference and modify in final_
 
 started the illustrator file, still more work needs done but looking good so far...
+
+## 3/7/23
+
+### Overview
+
+The following are the zotero templates, I want to order them a bit better
+
+```json
+Artwork
+Audio Recording
+Bill
+Blog Post
+Book
+Book Selection
+Case
+Conference Paper
+Dataset
+Dictionary Entry
+Document
+Email
+Encyclopedia Article
+Film
+Forum Post
+Hearing
+Interview
+Journal Article
+Letter
+Magazine Article
+Manuscript
+Map
+Newspaper Article
+Patent
+Podcast
+Preprint
+presentation
+Radio Broadcast
+Report
+Software
+Statute
+Thesis
+Tv Broadcast
+Video Recording
+Web Page
+```
+
+Example of a better ordering in heirachy / ordered and foldered
+
+```json
+{
+  "art": {
+    "Artwork": {}
+  },
+  "audio": {
+    "Audio Recording": {},
+    "Podcast": {},
+    "Interview": {}
+  },
+  "documents": {
+    "Books": {
+      "Book": {},
+      "Book Selection": {}
+    },
+    "Legal": {
+      "Case": {},
+      "Patent": {},
+
+```
+
+which has now been modified further to support tags, titles, a brief description, better child handling ect
+
+```json
+{
+  "art": {
+    "title": "art",
+    "descriptive_sentence": "Art is something that stimulates an individual's thoughts, emotions, beliefs, or ideas through the senses.",
+    "tags": ["art", "visual", "style", "looks"],
+    "children": [
+      {
+        "title": "artwork",
+        "descriptive_sentence": "Artwork refers to visual or auditory creations that are intended to be appreciated for their beauty or emotional power.",
+        "tags": ["art", "visual", "creative", "aesthetics"],
+        "children": []
+      }
+    ]
+  },
+  "audio": {
+    "title": "audio",
+    "descriptive_sentence": "Audio refers to sounds, music, spoken words, or other auditory elements.",
+    "tags": ["audio", "sound", "music", "listening"],
+    "children": [
+      {
+        "title": "audio recording",
+        "descriptive_sentence": "An audio recording captures sounds, music, or spoken words in a digital or analog format.",
+        "tags": ["audio", "recording", "sound", "music"],
+        "children": []
+```
+
+also would like to use flask as a backend to appropriately run all the Machine learning models and scripts.
+
+Only some of the json gets its individual header art style
+
+So far the ones that get one is:
+
+- web page (not every website, only ones that are being looked at for artistic reasons / web dev help tools)
+- software (github links, gitlab, software homepages)
+- artwork (2d art with poster image)
+- wide right (projects on even number)
+- wide center (projects on odd number)
+- normal left (Groups with less than 10 panels)
+- normal center (default panel on even number)
+- normal right (default panel on odd number)
+
+![Alt text](Images/image.png)
+
+*ref photo taken from adobe illustrator*
+
+from the picture we see 3 shown things, the panel which is the text and body of each document, wide_center which is the panels specified header style. Then the box overlay.
+
+```markdown
+Title
+
+(science, healt ect) Category
+Categorical Weighting
+
+(products) Description
+(books & film) Synopsis
+(reports) Abstract
+
+Author/s
+Illustrator/s
+Directr/s
+Actor/s
+
+homepage
+project directory
+
+
+Project Start Date
+Project End Date
+Published Date
+
+export apa
+clipboard, file ect ect 
+```
+*every possible variable the user could want*
+
+### Next Steps
+
+- [ ] export every individual svg into the react project and make a function that takes an input of the markdown shown above
+- [ ] find and document height of each svg item
+- [ ] correct origins for each svg
+- [ ] get two working in conjunction together / layering properly
+- [ ] use the json file from above to get text and date
+- [ ] use beautiful soup to rip all unique text from all webpages
+- [ ] use a ml model (bert) to decide what the url and title's most likely parent is from the json list above
+- [ ] connect bert and the ml model to **FLASK**
+- [ ] use another even better formatted json file with parents, tags, children, descriptions to autofill the panel text
+- [ ] ensure a get request works properly from user to **FLASK** database
+- [ ] get the data from the backend ml model
+
+data in the final form:
+
+```json
+[
+  {
+    "id":"",
+    "parent":"0 is root",
+    "title":"",
+    "description":"",
+    "tags":[""],
+    "type":"",
+    "author":[""],
+    "url":{
+      "homepage":"",
+      "development":"",
+      "wiki":""
+    },
+    "dates":{
+      "start":"",
+      "due":"",
+      "published":""
+    },
+    "image":"www.url.com"
+  },
+  {...}
+]
+```
+some fields meant the same thing so they are just deaufult in the json, and formatted different dependant on the type variable

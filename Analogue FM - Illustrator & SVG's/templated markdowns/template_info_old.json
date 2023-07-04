@@ -1,0 +1,270 @@
+[
+  {
+    "title": "art",
+    "descriptive_sentence": "Art is something that stimulates an individual's thoughts, emotions, beliefs, or ideas through the senses.",
+    "tags": ["art", "visual", "style", "looks"],
+    "children": [
+      {
+        "title": "artwork",
+        "descriptive_sentence": "Artwork refers to visual or auditory creations that are intended to be appreciated for their beauty or emotional power.",
+        "tags": ["art", "visual", "creative", "aesthetics"],
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "audio",
+    "descriptive_sentence": "Audio refers to sounds, music, spoken words, or other auditory elements.",
+    "tags": ["audio", "sound", "music", "listening"],
+    "children": [
+      {
+        "title": "audio recording",
+        "descriptive_sentence": "An audio recording captures sounds, music, or spoken words in a digital or analog format.",
+        "tags": ["audio", "recording", "sound", "music"],
+        "children": []
+      },
+      {
+        "title": "podcast",
+        "descriptive_sentence": "A podcast is a series of audio episodes that can cover various topics and be accessed through the internet.",
+        "tags": ["audio", "podcast", "episodes", "listening"],
+        "children": []
+      },
+      {
+        "title": "interview",
+        "descriptive_sentence": "An interview is a conversation or discussion between two or more people, typically recorded, where one person asks questions and others provide answers or opinions.",
+        "tags": ["audio", "interview", "conversation", "discussion"],
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "documents",
+    "descriptive_sentence": "Documents refer to written or printed materials that contain information or provide evidence.",
+    "tags": ["documents", "written", "printed", "information"],
+    "children": [
+      {
+        "title": "books",
+        "descriptive_sentence": "Books are written or printed works consisting of pages bound together, often containing stories, information, or ideas.",
+        "tags": ["documents", "books", "reading", "knowledge"],
+        "children": [
+          {
+            "title": "book",
+            "descriptive_sentence": "A book is a written or printed work that is usually published and has a title, author, and content.",
+            "tags": ["documents", "book", "reading", "literature"],
+            "children": []
+          },
+          {
+            "title": "book selection",
+            "descriptive_sentence": "A book selection refers to a curated or chosen set of books, often with a specific theme or purpose.",
+            "tags": ["documents", "book selection", "reading", "curated"],
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "legal",
+        "descriptive_sentence": "Legal documents pertain to laws, regulations, cases, patents, and statutes.",
+        "tags": ["documents", "legal", "laws", "regulations"],
+        "children": [
+          {
+            "title": "case",
+            "descriptive_sentence": "A case refers to a legal dispute or controversy that is brought before a court for resolution.",
+            "tags": ["documents", "legal", "case", "lawsuit"],
+            "children": []
+          },
+          {
+            "title": "patent",
+            "descriptive_sentence": "A patent is a legal document that grants exclusive rights to an invention, usually for a specified period.",
+            "tags": ["documents", "legal", "patent", "invention"],
+            "children": []
+          },
+          {
+            "title": "statute",
+            "descriptive_sentence": "A statute is a written law passed by a legislative body and enacted as a formal rule.",
+            "tags": ["documents", "legal", "statute", "legislation"],
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "scholarly",
+        "descriptive_sentence": "Scholarly documents include academic and research-oriented materials such as conference papers, preprints, reports, and theses.",
+        "tags": ["documents", "scholarly", "academic", "research"],
+        "children": [
+          {
+            "title": "conference paper",
+            "descriptive_sentence": "A conference paper is a scholarly work presented at an academic conference or symposium.",
+            "tags": ["documents", "scholarly", "conference paper", "academic"],
+            "children": []
+          },
+          {
+            "title": "preprint",
+            "descriptive_sentence": "A preprint is a research paper that is publicly available before formal peer review and publication.",
+            "tags": ["documents", "scholarly", "preprint", "research"],
+            "children": []
+          },
+          {
+            "title": "report",
+            "descriptive_sentence": "A report is a document that presents detailed information or findings about a specific topic or issue.",
+            "tags": ["documents", "scholarly", "report", "information"],
+            "children": []
+          },
+          {
+            "title": "thesis",
+            "descriptive_sentence": "A thesis is a document submitted by a candidate for an academic degree, presenting their research findings.",
+            "tags": ["documents", "scholarly", "thesis", "research"],
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "written works",
+        "descriptive_sentence": "Written works encompass various forms of written content such as bills, blog posts, dictionary entries, documents, emails, encyclopedia articles, forum posts, journal articles, letters, magazine articles, and manuscripts.",
+        "tags": ["documents", "written works", "writing", "content"],
+        "children": [
+          {
+            "title": "bill",
+            "descriptive_sentence": "A bill is a proposed law or legislation that is presented for consideration by a legislative body.",
+            "tags": ["documents", "written works", "bill", "legislation"],
+            "children": []
+          },
+          {
+            "title": "blog post",
+            "descriptive_sentence": "A blog post is an article or entry posted on a blog, typically offering opinions, information, or experiences.",
+            "tags": ["documents", "written works", "blog post", "blogging"],
+            "children": []
+          },
+          {
+            "title": "dictionary entry",
+            "descriptive_sentence": "A dictionary entry is a word or term along with its definition and other relevant information listed in a dictionary.",
+            "tags": [
+              "documents",
+              "written works",
+              "dictionary entry",
+              "definition"
+            ],
+            "children": []
+          },
+          {
+            "title": "document",
+            "descriptive_sentence": "A document is a written, printed, or electronic record that provides information or serves as evidence.",
+            "tags": ["documents", "written works", "document", "record"],
+            "children": []
+          },
+          {
+            "title": "email",
+            "descriptive_sentence": "An email is an electronic message sent over a computer network, typically used for communication purposes.",
+            "tags": ["documents", "written works", "email", "communication"],
+            "children": []
+          },
+          {
+            "title": "encyclopedia article",
+            "descriptive_sentence": "An encyclopedia article is a detailed and informative entry on a specific topic, usually found in an encyclopedia.",
+            "tags": [
+              "documents",
+              "written works",
+              "encyclopedia article",
+              "information"
+            ],
+            "children": []
+          },
+          {
+            "title": "forum post",
+            "descriptive_sentence": "A forum post is a message or discussion posted on an online forum or discussion board.",
+            "tags": ["documents", "written works", "forum post", "discussion"],
+            "children": []
+          },
+          {
+            "title": "journal article",
+            "descriptive_sentence": "A journal article is a scholarly paper or research study published in an academic journal.",
+            "tags": [
+              "documents",
+              "written works",
+              "journal article",
+              "research"
+            ],
+            "children": []
+          },
+          {
+            "title": "letter",
+            "descriptive_sentence": "A letter is a written or printed communication addressed to someone, often conveying personal or formal messages.",
+            "tags": ["documents", "written works", "letter", "communication"],
+            "children": []
+          },
+          {
+            "title": "magazine article",
+            "descriptive_sentence": "A magazine article is a written piece published in a magazine, typically covering various topics of interest.",
+            "tags": [
+              "documents",
+              "written works",
+              "magazine article",
+              "publication"
+            ],
+            "children": []
+          },
+          {
+            "title": "manuscript",
+            "descriptive_sentence": "A manuscript is an author's handwritten or typewritten work that is submitted for publication.",
+            "tags": ["documents", "written works", "manuscript", "writing"],
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "data and research",
+        "descriptive_sentence": "Data and research documents include datasets and maps used for analysis, visualization, or study purposes.",
+        "tags": ["documents", "data", "research", "analysis"],
+        "children": [
+          {
+            "title": "dataset",
+            "descriptive_sentence": "A dataset is a collection of structured data organized for analysis, typically in electronic format.",
+            "tags": [
+              "documents",
+              "data and research",
+              "dataset",
+              "structured data"
+            ],
+            "children": []
+          },
+          {
+            "title": "map",
+            "descriptive_sentence": "A map is a visual representation of an area, region, or geographical information.",
+            "tags": ["documents", "data and research", "map", "geography"],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "TV and broadcasts",
+    "descriptive_sentence": "TV and broadcasts refer to television programs and video recordings aired on television or radio.",
+    "tags": ["videos", "TV and broadcasts", "television", "radio"],
+    "children": [
+      {
+        "title": "TV broadcast",
+        "descriptive_sentence": "A TV broadcast is a television program or transmission that is aired to a wide audience.",
+        "tags": ["videos", "TV and broadcasts", "television", "broadcast"],
+        "children": []
+      },
+      {
+        "title": "video recording",
+        "descriptive_sentence": "A video recording captures visual and auditory content in a digital or analog format.",
+        "tags": [
+          "videos",
+          "TV and broadcasts",
+          "video recording",
+          "visual",
+          "auditory"
+        ],
+        "children": []
+      },
+      {
+        "title": "radio broadcast",
+        "descriptive_sentence": "A radio broadcast is an audio program or transmission that is aired on radio frequencies.",
+        "tags": ["videos", "TV and broadcasts", "radio broadcast", "audio"],
+        "children": []
+      }
+    ]
+  }
+]
