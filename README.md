@@ -69,6 +69,8 @@ This is a bookmarks extender extension. The idea being that it helps autocategor
   - [3/7/23](#3723)
     - [Overview](#overview-12)
     - [Next Steps](#next-steps-6)
+  - [5/7/23](#5723)
+    - [Overvie](#overvie)
 
 <!-- /TOC -->
 
@@ -292,9 +294,9 @@ and its basically as easy as that...
 | **Yeah, This Might Take Me A Solid Year To Finish**                     |                 |             |             |
 | 1. python script that converts Bookmark.html > bookmark.csv             | ~7 hours        | Riley Smith | ✔️          |
 | 2. python script that converts Bookmark.json > bookmark.csv             | ~8 hours        | Riley Smith | ✔️          |
-| 3. python script that merges the previous two csv files into one        | ~1 hours        | Riley Smith | ✔️ |
-| 4. Reverse step 1.                                                      | ~3 hours        | Riley Smith | ✔️ |
-| 5. Reverse step 2.                                                      | ~2 hours        | Riley Smith | ✔️ |
+| 3. python script that merges the previous two csv files into one        | ~1 hours        | Riley Smith | ✔️          |
+| 4. Reverse step 1.                                                      | ~3 hours        | Riley Smith | ✔️          |
+| 5. Reverse step 2.                                                      | ~2 hours        | Riley Smith | ✔️          |
 | 6. Machine Learning Model 1                                             | ~12 hours       | Riley Smith | Not Started |
 | 6. Machine Learning Model 2                                             | ~12 hours       | Riley Smith | Not Started |
 | 6. Machine Learning Model 3                                             | ~12 hours       | Riley Smith | Not Started |
@@ -832,7 +834,7 @@ So far the ones that get one is:
 
 ![Alt text](Images/image.png)
 
-*ref photo taken from adobe illustrator*
+_ref photo taken from adobe illustrator_
 
 from the picture we see 3 shown things, the panel which is the text and body of each document, wide_center which is the panels specified header style. Then the box overlay.
 
@@ -854,15 +856,15 @@ Actor/s
 homepage
 project directory
 
-
 Project Start Date
 Project End Date
 Published Date
 
 export apa
-clipboard, file ect ect 
+clipboard, file ect ect
 ```
-*every possible variable the user could want*
+
+_every possible variable the user could want_
 
 ### Next Steps
 
@@ -878,31 +880,78 @@ clipboard, file ect ect
 - [ ] ensure a get request works properly from user to **FLASK** database
 - [ ] get the data from the backend ml model
 
-data in the final form:
+data entry example in ideal final form:
 
 ```json
 [
   {
-    "id":"",
-    "parent":"0 is root",
-    "title":"",
-    "description":"",
-    "tags":[""],
-    "type":"",
-    "author":[""],
-    "url":{
-      "homepage":"",
-      "development":"",
-      "wiki":""
+    "id": "",
+    "parent": "0 is root",
+    "title": "",
+    "description": "",
+    "tags": [""],
+    "type": "",
+    "rights": "MIT",
+    "people": {
+      "author": [""],
+      "editor": [""],
+      "illustrator": [""],
+      "contributor": [""],
+      "translator": [""],
+      "actor": [""],
+      "director": [""]
     },
-    "dates":{
-      "start":"",
-      "due":"",
-      "published":""
+    "url": {
+      "homepage": "",
+      "development": "",
+      "wiki": "",
+      "image": "www.url.com"
     },
-    "image":"www.url.com"
-  },
-  {...}
+    "dates": {
+      "added": "",
+      "modified": "",
+      "start": "",
+      "due": "",
+      "published": ""
+    }
+  }
 ]
 ```
+
 some fields meant the same thing so they are just deaufult in the json, and formatted different dependant on the type variable
+
+## 5/7/23
+
+### Overvie
+
+**fonts**
+
+![Alt text](image.png)
+
+(impact font) [SCHABO CONDENSED](https://www.behance.net/gallery/156647815/SCHABO-CONDENSED-(free-font))
+
+![Alt text](image-1.png)
+
+(monospace sketchy font)  [Her name is Rie](https://www.behance.net/gallery/110240687/Her-name-is-Rie-(Free-Font))
+
+credit @ Firzha Arienda/firzlle on Instagram.
+
+![Alt text](image-2.png)
+
+This font is distributed under a Creative Commons licence.
+Free for Commercial and Personal use. 
+ 
+COMMERCIAL AND NON-COMMERCIAL USE @NEUDEMONIA MUST BE CREDITED
+
+![Alt text](image-3.png)
+
+[KRYLON](https://www.behance.net/gallery/133227745/KRYLON-(free-font))
+
+![Alt text](image-4.png)
+
+[Brick](https://www.behance.net/gallery/162037091/Brick-Handwritten-Font-(FREE))
+
+https://sesohq.sellfy.store/p/brick-font-by-seso/
+
+if you use in a commercial procuct, you have to pay up $18
+
