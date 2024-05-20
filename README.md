@@ -185,7 +185,7 @@ Steps required to create a new tab web extension:
 
 ## steps
 
-To categorize URLs into broad and specialized categories, you can use a supervised machine learning algorithm such as a classification algorithm. Here are the steps you can follow:
+To categorize URLs into broad and specialized categories, i will use a supervised classification machine learning algorithm:
 
 1. Data Cleaning:
 
